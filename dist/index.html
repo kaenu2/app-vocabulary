@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Vocabulary</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<main class="app">
+				<section class="app__vocabulary vocabulary">
+					<div class="vocabulary__container _container">
+						<h1 class="vocabulary__title">Vocabulary</h1>
+						<form class="vocabulary__form">
+							<input name="word" type="text" class="vocabulary__input" placeholder="Type a word..." autocomplete="off">
+							<button class="vocabulary__btn">Search</button>
+						</form>
+
+						<div class="vocabulary__error">Word not found</div>
+
+						<div class="vocabulary__content-box">
+							<div class="vocabulary__content content">
+								<h2 class="content__name">Word</h2>
+								<div class="content__sound">
+									<img id="uk" src="./img/UK.svg" alt="">
+									<img id="usa" src="./img/usav2.png" alt="">
+								</div>
+							</div>
+							<div class="vocabulary__resultat resultat">
+								<ul class="resultat__list">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
